@@ -28,3 +28,8 @@ details of user & payment & does the payment for you.
 <li> As soon as payment button is clicked, payment will be successful.
 <li> The Validity of one slot booking is 1 month, So a user need not register himself for the period of one month.
 <li> Payment details (account number, cvv) are not stored in database, just shown on the frontend.
+
+ <h3> Steps to run the project </h3>
+  <li> clone the repo
+    <li> run npm i
+      <li> npm run both
