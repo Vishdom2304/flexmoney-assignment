@@ -31,5 +31,5 @@ details of user & payment & does the payment for you.
 
  <h3> Steps to run the project </h3>
   <li> clone the repo
-    <li> run npm i
-      <li> npm run both
+    <li> Run :- run npm i
+      <li> Run :- npm run both
