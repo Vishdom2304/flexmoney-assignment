@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<h3>This repository contains the assignment for internship, developed using MERN stack.</h3>
+<hr/>
+<h4>It is basically a web app for yoga class registrations.
+The website contains the form which takes user information and payment details and register them if payment is successful.</h4>
+<h3>The Tech Stack used is :- </h3>
+<ul>
+<li> Node.js
+<li> Express.js
+<li> MongoDB
+<li> React.js
+</ul>
+<h3>The project has the following steps :- </h3>
+<li> Registration :- User Fill in his basic details
+<li> Validations :- The user data is validates according to the rules.
+<li> If the data is valid, it is updates in the database annd user is informed.
+<li> If the data is invalid, user is informed about the posibble errors and asked to rectify them.
+<li> database storage & confirmation :- After SuccessFul Payment, A confirmation in shon to user in form of Alerts and Also the data is pushed to the database.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3> Some Important points :- </h3>
+<li> The age of the person registering must be between 18 - 65.
+<li> transaction amount must be 500/-
 
-## Available Scripts
+<h3>Some Assumptions :- </h3> 
+<li>No login authentication is needed
+<li> User simply register and pays and gets his slot.
+<li> Assume that you have a mock function named CompletePayment() which accepts the
+details of user & payment & does the payment for you.
+<li> As soon as payment button is clicked, payment will be successful.
+<li> The Validity of one slot booking is 1 month, So a user need not register himself for the period of one month.
+<li> Payment details (account number, cvv) are not stored in database, just shown on the frontend.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ <h3> Steps to run the project </h3>
+  <li> clone the repo
+    <li> Run :- run npm i
+      <li> Run :- npm run both
