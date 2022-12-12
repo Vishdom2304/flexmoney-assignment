@@ -35,7 +35,7 @@ export default function Register() {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:5000/register',
+            url: 'https://agreeable-blue-sparrow.cyclic.app/register',
             data: { firstName, lastName, contactNumber, age, batch }
         }).then((res) => {
                 console.log('register response')
