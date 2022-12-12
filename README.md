@@ -24,7 +24,7 @@ The website contains the form which takes user information and payment details a
 <li>No login authentication is needed
 <li> User simply register and pays and gets his slot.
 <li> Assume that you have a mock function named CompletePayment() which accepts the
-details of user and payment and does the payment for you.
+details of user & payment & does the payment for you.
 <li> As soon as payment button is clicked, payment will be successful.
 <li> The Validity of one slot booking is 1 month, So a user need not register himself for the period of one month.
 <li> Payment details (account number, cvv) are not stored in database, just shown on the frontend.
